@@ -1,0 +1,37 @@
+body{
+    font: bold 12pt Georgia;
+    background-image: linear-gradient(45deg, #75F5A8, #5FDEBA, #6EFAFF);
+    background-attachment: fixed;
+    text-align: center;
+    
+        
+}
+input{
+    font: bold 13pt Georgia;
+    width: 115px;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+div#res{
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div#res1{
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div#res2{
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div#res3{
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div#res4{
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    font: bold 30px Georgia;
+    color: #030c04;
+}

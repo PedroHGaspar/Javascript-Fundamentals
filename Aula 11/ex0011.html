@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Sistema de Nacionalidade</h1>
+     País de Origem <input type = "text" name = "txtvel" id = "txtvel">
+    <input type = "button" value = "Verificar" onclick = "calcular()">
+    <div id = "res">
+
+    </div>
+
+    <script>
+
+        function calcular(){
+            var doc = window.document.querySelector('input#txtvel')
+            var res = window.document.querySelector('div#res')
+            var ve1 = Text
+            res.innerHTML = `<p>Sua nacionalidade é ${doc}.</p>`
+                if (ve1 != 'Brasil'){
+                    res.innerHTML += `Você é Estrangeiro`
+                }
+                res.innerHTML += `Você é Brasileiro`
+                
+        }
+// PROGRAM ESTA DANDO ERROS :(
+    </script>
+</body>
+</html>
