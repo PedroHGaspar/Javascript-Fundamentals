@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Source+Sans+Pro&display=swap');
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: rgba(255, 255, 255, .7);
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    background: linear-gradient(145deg, rgb(45, 143, 21), rgb(11, 2, 17));
+    width: 100%;
+    text-align: center;
+}
+
+body * {
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.random {
+    margin-top: 1rem;
+}
+
+.inputs {
+    flex-direction: row;
+}
+
+input {
+    height: 3rem;
+    width: 3rem;
+    padding: .1rem;
+}
+
+h1 {
+    font: 600 3rem 'Roboto Slab', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+
+h3 {
+    font: 900 1rem 'Roboto Slab', sans-serif;
+    color: rgba(0, 0, 0, .7);
+    text-transform: none;
+    letter-spacing: 0.01rem;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    h1 {
+        font: 500 2rem 'Roboto Slab', sans-serif;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
